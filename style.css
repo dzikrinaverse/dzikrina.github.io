@@ -1,0 +1,81 @@
+/* Reset style dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Warna utama */
+:root {
+  --primary: #4CAF50;
+  --secondary: #333;
+  --light: #f9f9f9;
+}
+
+body {
+  background: var(--light);
+  color: var(--secondary);
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: var(--primary);
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+/* Section */
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: var(--primary);
+}
+
+/* Card Project */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: var(--secondary);
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+footer a {
+  color: #ffcc00;
+  text-decoration: none;
+}
