@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <title>Portofolio Saya</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; background: #f4f4f4; }
+    .container { max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 10px; }
+    h1 { color: #333; }
+    .project { margin-bottom: 20px; }
+    .project a { color: #0b63ff; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Halo, saya [Namamu]</h1>
+    <p>Ini adalah portofolio online saya.</p>
+
+    <h2>Proyek Unggulan</h2>
+    <div class="project">
+      <h3>Project 1</h3>
+      <p>Deskripsi singkat project.</p>
+      <a href="https://github.com/username/project1" target="_blank">Lihat di GitHub</a>
+    </div>
+
+    <div class="project">
+      <h3>Project 2</h3>
+      <p>Deskripsi singkat project kedua.</p>
+      <a href="https://github.com/username/project2" target="_blank">Lihat di GitHub</a>
+    </div>
+
+    <h2>Kontak</h2>
+    <p>Email: <a href="mailto:emailkamu@gmail.com">emailkamu@gmail.com</a></p>
+  </div>
+</body>
+</html>
